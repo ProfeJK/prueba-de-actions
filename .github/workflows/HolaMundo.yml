@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pruebaActions
-        uses: actions/checkout@v
+        uses: actions/checkout@v3
       - run: echo "$(cat hello_world.txt)"
